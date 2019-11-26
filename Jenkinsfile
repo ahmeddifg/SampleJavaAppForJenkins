@@ -7,6 +7,7 @@ pipeline {
             steps {
                  echo 'Build'
                  sh '/var/jenkins_home/jenkins-pipline1/mvn.sh'
+                 sh '/var/jenkins_home/jenkins-pipline1/build.sh'
             }
 
             post {
