@@ -20,6 +20,7 @@ pipeline {
         stage('Test') {
             steps {
              echo 'Test'
+             sh '/var/jenkins_home/jenkins-pipline1/mvntest.sh'
             }
 
             post {
