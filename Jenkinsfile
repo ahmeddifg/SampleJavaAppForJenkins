@@ -33,6 +33,8 @@ pipeline {
         stage('Push') {
             steps {
             echo 'Push'
+            sh '/var/jenkins_home/jenkins-pipline1/push.sh'
+
             }
         }
 
